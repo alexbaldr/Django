@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% load static %}
+{%load get_tipe%}
+
+{% block title %}Каталог{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="header">
+            <h1>Сравнение телефонов</h1>
+        </div>
+        <table cellspacing="20" cellpadding="15">
+        <div class="content"> 
+
+            <tr>
+            <td>Модель:</td>
+             {%for phone in phones%}
+                <td><p><h6>{{phone.name.name}}</h6>
+            {% endfor %}
+            <tr>
+            <td>Стоимость:</td>
+            {%for phone in phones%}
+                <td><p>{{phone.name.price}}
+            {% endfor %}
+            <tr>
+            <td>Операционная система:</td>
+            {%for phone in phones%}
+                <td><p>{{phone.name.os}}
+            {% endfor %}
+            <tr>
+            <td>Оперативная память:</td>
+            {%for phone in phones%}
+                <td><p>{{phone.name.ram}}
+            {% endfor %}
+            <tr>
+            <td>Число пикселей на дюйм:</td>
+            {%for phone in phones%}
+                <td><p>{{phone.name.pixel}}
+            {% endfor %}
+            <tr>
+            <td>Двойная камера:</td>
+            {%for phone in phones%}
+                <td><p>{{phone.name.duble_camera|dash}}<p>
+            {% endfor %}
+            <tr>
+            <td>Процессор:</td>
+            {%for phone in phones%}
+                <td><p>{{phone.name.processor}}
+            {% endfor %}
+            <tr>
+            <td>Разрешение экрана:</td>
+            {%for phone in phones%}
+                <td><p>{{phone.name.screen}}
+            {% endfor %}
+            <tr>
+            <td>FM-Радио:</td>
+            {%for phone in phones%}
+                <td><p>{{phone.name.fm|dash}}
+            {% endfor %}
+            <tr>
+            <td>Дополнительно:</td>
+            {%for phone in phones%}
+                <td><p>
+                    {%for p in phone.extra|get_edge%}
+                    {{p}}<br>
+                    {% endfor %}
+            {% endfor %}
+
+        </div>
+        </table>
+    </div>
+{% endblock %}
