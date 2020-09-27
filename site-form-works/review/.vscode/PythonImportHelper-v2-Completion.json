@@ -1,0 +1,667 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {
+            "value": "\n```python\nimport django.db\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {
+            "value": "\n```python\nimport django.db\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {
+            "value": "\n```python\nimport django.db\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {
+            "value": "\n```python\nimport django.db\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {
+            "value": "\n```python\nimport django.db\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {
+            "value": "\n```python\nimport django.db.models.deletion\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {
+            "value": "\n```python\nimport django.contrib\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {
+            "value": "\n```python\nimport django.contrib\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {
+            "value": "\n```python\nimport django.apps\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {
+            "value": "\n```python\nimport django\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {
+            "value": "\n```python\nimport django.shortcuts\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {
+            "value": "\n```python\nimport django.shortcuts\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {
+            "value": "\n```python\nimport django.shortcuts\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {
+            "value": "\n```python\nimport django.urls\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {
+            "value": "\n```python\nimport django.urls\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {
+            "value": "\n```python\nimport os\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "product_list_view",
+        "importPath": "app.views",
+        "description": "app.views",
+        "isExtraImport": true,
+        "detail": "app.views",
+        "documentation": {
+            "value": "\n```python\nimport app.views\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "product_view",
+        "importPath": "app.views",
+        "description": "app.views",
+        "isExtraImport": true,
+        "detail": "app.views",
+        "documentation": {
+            "value": "\n```python\nimport app.views\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {
+            "value": "\n```python\nimport django.conf\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {
+            "value": "\n```python\nimport django.conf.urls.static\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {
+            "value": "\n```python\nimport django.core.wsgi\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {
+            "value": "\n```python\nimport sys\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "set_prefs",
+        "kind": 2,
+        "importPath": ".vscode..ropeproject.config",
+        "description": ".vscode..ropeproject.config",
+        "peekOfCode": "def set_prefs(prefs):\n    \"\"\"This function is called before opening the project\"\"\"\n    # Specify which files and folders to ignore in the project.\n    # Changes to ignored resources are not added to the history and\n    # VCSs.  Also they are not returned in `Project.get_files()`.\n    # Note that ``?`` and ``*`` match all characters but slashes.\n    # '*.pyc': matches 'test.pyc' and 'pkg/test.pyc'\n    # 'mod*.pyc': matches 'test/mod1.pyc' but not 'mod/1.pyc'\n    # '.svn': matches 'pkg/.svn' and all of its children\n    # 'build/*.o': matches 'build/lib.o' but not 'build/sub/lib.o'",
+        "detail": ".vscode..ropeproject.config",
+        "documentation": {
+            "value": "\n```python\nfrom .vscode..ropeproject.config import set_prefs\n```\n\n```python\n\n\n```\n\n```python\ndef set_prefs(prefs):\n    \"\"\"This function is called before opening the project\"\"\"\n    # Specify which files and folders to ignore in the project.\n    # Changes to ignored resources are not added to the history and\n    # VCSs.  Also they are not returned in `Project.get_files()`.\n    # Note that ``?`` and ``*`` match all characters but slashes.\n    # '*.pyc': matches 'test.pyc' and 'pkg/test.pyc'\n    # 'mod*.pyc': matches 'test/mod1.pyc' but not 'mod/1.pyc'\n    # '.svn': matches 'pkg/.svn' and all of its children\n    # 'build/*.o': matches 'build/lib.o' but not 'build/sub/lib.o'\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "project_opened",
+        "kind": 2,
+        "importPath": ".vscode..ropeproject.config",
+        "description": ".vscode..ropeproject.config",
+        "peekOfCode": "def project_opened(project):\n    \"\"\"This function is called after opening the project\"\"\"\n    # Do whatever you like here!",
+        "detail": ".vscode..ropeproject.config",
+        "documentation": {
+            "value": "\n```python\nfrom .vscode..ropeproject.config import project_opened\n```\n\n```python\n\n\n```\n\n```python\ndef project_opened(project):\n    \"\"\"This function is called after opening the project\"\"\"\n    # Do whatever you like here!\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "app.migrations.0001_initial",
+        "description": "app.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Product',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=50)),",
+        "detail": "app.migrations.0001_initial",
+        "documentation": {
+            "value": "\n```python\nfrom app.migrations.0001_initial import Migration\n```\n\n```python\n\n\n```\n\n```python\nclass Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Product',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=50)),\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "app.migrations.0002_auto_20200922_2054",
+        "description": "app.migrations.0002_auto_20200922_2054",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('app', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='review',\n            name='product',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='reviews', to='app.Product'),\n        ),",
+        "detail": "app.migrations.0002_auto_20200922_2054",
+        "documentation": {
+            "value": "\n```python\nfrom app.migrations.0002_auto_20200922_2054 import Migration\n```\n\n```python\n\n\n```\n\n```python\nclass Migration(migrations.Migration):\n    dependencies = [\n        ('app', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='review',\n            name='product',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='reviews', to='app.Product'),\n        ),\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "ProductAdmin",
+        "kind": 6,
+        "importPath": "app.admin",
+        "description": "app.admin",
+        "peekOfCode": "class ProductAdmin(admin.ModelAdmin):\n    list_display = ('id', 'name')\nclass ReviewAdmin(admin.ModelAdmin):\n    list_display = ('id', 'text')\nadmin.site.register(Product, ProductAdmin)\nadmin.site.register(Review, ReviewAdmin)",
+        "detail": "app.admin",
+        "documentation": {
+            "value": "\n```python\nfrom app.admin import ProductAdmin\n```\n\n```python\n\n\n```\n\n```python\nclass ProductAdmin(admin.ModelAdmin):\n    list_display = ('id', 'name')\nclass ReviewAdmin(admin.ModelAdmin):\n    list_display = ('id', 'text')\nadmin.site.register(Product, ProductAdmin)\nadmin.site.register(Review, ReviewAdmin)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "ReviewAdmin",
+        "kind": 6,
+        "importPath": "app.admin",
+        "description": "app.admin",
+        "peekOfCode": "class ReviewAdmin(admin.ModelAdmin):\n    list_display = ('id', 'text')\nadmin.site.register(Product, ProductAdmin)\nadmin.site.register(Review, ReviewAdmin)",
+        "detail": "app.admin",
+        "documentation": {
+            "value": "\n```python\nfrom app.admin import ReviewAdmin\n```\n\n```python\n\n\n```\n\n```python\nclass ReviewAdmin(admin.ModelAdmin):\n    list_display = ('id', 'text')\nadmin.site.register(Product, ProductAdmin)\nadmin.site.register(Review, ReviewAdmin)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "AppConfig",
+        "kind": 6,
+        "importPath": "app.apps",
+        "description": "app.apps",
+        "peekOfCode": "class AppConfig(AppConfig):\n    name = 'app'",
+        "detail": "app.apps",
+        "documentation": {
+            "value": "\n```python\nfrom app.apps import AppConfig\n```\n\n```python\n\n\n```\n\n```python\nclass AppConfig(AppConfig):\n    name = 'app'\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "ReviewForm",
+        "kind": 6,
+        "importPath": "app.forms",
+        "description": "app.forms",
+        "peekOfCode": "class ReviewForm(forms.ModelForm):\n    text = forms.CharField(widget=forms.Textarea, label='Отзыв')\n    class Meta(object):\n        model = Review\n        exclude = ('id', 'product')",
+        "detail": "app.forms",
+        "documentation": {
+            "value": "\n```python\nfrom app.forms import ReviewForm\n```\n\n```python\n\n\n```\n\n```python\nclass ReviewForm(forms.ModelForm):\n    text = forms.CharField(widget=forms.Textarea, label='Отзыв')\n    class Meta(object):\n        model = Review\n        exclude = ('id', 'product')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class Product(models.Model):\n    name = models.CharField(max_length=50)\n    img = models.FileField(upload_to='products/%Y/%m/%d/')\n    def __str__(self):\n        return self.name\nclass Review(models.Model):\n    text = models.TextField()\n    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name=\"reviews\")\n    def __str__(self):\n        return str(self.product.name) + ' ' + self.text[:50]",
+        "detail": "app.models",
+        "documentation": {
+            "value": "\n```python\nfrom app.models import Product\n```\n\n```python\n\n\n```\n\n```python\nclass Product(models.Model):\n    name = models.CharField(max_length=50)\n    img = models.FileField(upload_to='products/%Y/%m/%d/')\n    def __str__(self):\n        return self.name\nclass Review(models.Model):\n    text = models.TextField()\n    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name=\"reviews\")\n    def __str__(self):\n        return str(self.product.name) + ' ' + self.text[:50]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Review",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class Review(models.Model):\n    text = models.TextField()\n    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name=\"reviews\")\n    def __str__(self):\n        return str(self.product.name) + ' ' + self.text[:50]",
+        "detail": "app.models",
+        "documentation": {
+            "value": "\n```python\nfrom app.models import Review\n```\n\n```python\n\n\n```\n\n```python\nclass Review(models.Model):\n    text = models.TextField()\n    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name=\"reviews\")\n    def __str__(self):\n        return str(self.product.name) + ' ' + self.text[:50]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "product_list_view",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def product_list_view(request):\n    template = 'app/product_list.html'\n    products = Product.objects.all()\n    context = {\n        'product_list': products,\n    }\n    return render(request, template, context)\ndef product_view(request, pk):\n    template = 'app/product_detail.html'\n    product = get_object_or_404(Product, id=pk)",
+        "detail": "app.views",
+        "documentation": {
+            "value": "\n```python\nfrom app.views import product_list_view\n```\n\n```python\n\n\n```\n\n```python\ndef product_list_view(request):\n    template = 'app/product_list.html'\n    products = Product.objects.all()\n    context = {\n        'product_list': products,\n    }\n    return render(request, template, context)\ndef product_view(request, pk):\n    template = 'app/product_detail.html'\n    product = get_object_or_404(Product, id=pk)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "product_view",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def product_view(request, pk):\n    template = 'app/product_detail.html'\n    product = get_object_or_404(Product, id=pk)\n    form = ReviewForm\n    reviewed_products = request.session.get('reviewed_products',)\n    reviewed_products.append(pk)\n    request.session['reviewed_products'] = reviewed_products\n    for id_product in Review.objects.select_related('product'):\n        if id_product.product_id == pk and id_product.product_id in reviewed_products:\n            is_review_exist = False",
+        "detail": "app.views",
+        "documentation": {
+            "value": "\n```python\nfrom app.views import product_view\n```\n\n```python\n\n\n```\n\n```python\ndef product_view(request, pk):\n    template = 'app/product_detail.html'\n    product = get_object_or_404(Product, id=pk)\n    form = ReviewForm\n    reviewed_products = request.session.get('reviewed_products',)\n    reviewed_products.append(pk)\n    request.session['reviewed_products'] = reviewed_products\n    for id_product in Review.objects.select_related('product'):\n        if id_product.product_id == pk and id_product.product_id in reviewed_products:\n            is_review_exist = False\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import BASE_DIR\n```\n\n```python\n\n\n```\n\n```python\nBASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'app',\n]\nMIDDLEWARE = [",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import INSTALLED_APPS\n```\n\n```python\n\n\n```\n\n```python\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'app',\n]\nMIDDLEWARE = [\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'product_review.urls'",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import MIDDLEWARE\n```\n\n```python\n\n\n```\n\n```python\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'product_review.urls'\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "ROOT_URLCONF = 'product_review.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import ROOT_URLCONF\n```\n\n```python\n\n\n```\n\n```python\nROOT_URLCONF = 'product_review.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import TEMPLATES\n```\n\n```python\n\n\n```\n\n```python\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'product_review.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/2.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# Password validation",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import WSGI_APPLICATION\n```\n\n```python\n\n\n```\n\n```python\nWSGI_APPLICATION = 'product_review.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/2.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# Password validation\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import DATABASES\n```\n\n```python\n\n\n```\n\n```python\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import AUTH_PASSWORD_VALIDATORS\n```\n\n```python\n\n\n```\n\n```python\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import LANGUAGE_CODE\n```\n\n```python\n\n\n```\n\n```python\nLANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import TIME_ZONE\n```\n\n```python\n\n\n```\n\n```python\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_URL = '/media/'",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import USE_I18N\n```\n\n```python\n\n\n```\n\n```python\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_URL = '/media/'\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_URL = '/media/'\n# SECURITY WARNING: keep the secret key used in production secret!",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import USE_L10N\n```\n\n```python\n\n\n```\n\n```python\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_URL = '/media/'\n# SECURITY WARNING: keep the secret key used in production secret!\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_URL = '/media/'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'your secret key'",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import USE_TZ\n```\n\n```python\n\n\n```\n\n```python\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_URL = '/media/'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'your secret key'\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_URL = '/media/'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'your secret key'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\ntry:",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import STATIC_URL\n```\n\n```python\n\n\n```\n\n```python\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_URL = '/media/'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'your secret key'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\ntry:\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_URL = '/media/'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'your secret key'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\ntry:\n    from .settings_local import *",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import STATICFILES_DIRS\n```\n\n```python\n\n\n```\n\n```python\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_URL = '/media/'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'your secret key'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\ntry:\n    from .settings_local import *\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'your secret key'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\ntry:\n    from .settings_local import *\nexcept ImportError:\n    pass",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import MEDIA_URL\n```\n\n```python\n\n\n```\n\n```python\nMEDIA_URL = '/media/'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'your secret key'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\ntry:\n    from .settings_local import *\nexcept ImportError:\n    pass\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "SECRET_KEY = 'your secret key'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\ntry:\n    from .settings_local import *\nexcept ImportError:\n    pass",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import SECRET_KEY\n```\n\n```python\n\n\n```\n\n```python\nSECRET_KEY = 'your secret key'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\ntry:\n    from .settings_local import *\nexcept ImportError:\n    pass\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "product_review.settings",
+        "description": "product_review.settings",
+        "peekOfCode": "DEBUG = True\ntry:\n    from .settings_local import *\nexcept ImportError:\n    pass",
+        "detail": "product_review.settings",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings import DEBUG\n```\n\n```python\n\n\n```\n\n```python\nDEBUG = True\ntry:\n    from .settings_local import *\nexcept ImportError:\n    pass\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "product_review.settings_local_sample",
+        "description": "product_review.settings_local_sample",
+        "peekOfCode": "SECRET_KEY = 'b0e@^m&tccz11$w59qov$lhn-97!(%wfn-gray-c*x)^a$wx=2'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []",
+        "detail": "product_review.settings_local_sample",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings_local_sample import SECRET_KEY\n```\n\n```python\n\n\n```\n\n```python\nSECRET_KEY = 'b0e@^m&tccz11$w59qov$lhn-97!(%wfn-gray-c*x)^a$wx=2'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "product_review.settings_local_sample",
+        "description": "product_review.settings_local_sample",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []",
+        "detail": "product_review.settings_local_sample",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings_local_sample import DEBUG\n```\n\n```python\n\n\n```\n\n```python\nDEBUG = True\nALLOWED_HOSTS = []\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "product_review.settings_local_sample",
+        "description": "product_review.settings_local_sample",
+        "peekOfCode": "ALLOWED_HOSTS = []",
+        "detail": "product_review.settings_local_sample",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.settings_local_sample import ALLOWED_HOSTS\n```\n\n```python\n\n\n```\n\n```python\nALLOWED_HOSTS = []\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "product_review.urls",
+        "description": "product_review.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('product/<int:pk>/', product_view, name='product_detail'),\n    path('', product_list_view, name='main_page'),\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "product_review.urls",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.urls import urlpatterns\n```\n\n```python\n\n\n```\n\n```python\nurlpatterns = [\n    path('admin/', admin.site.urls),\n    path('product/<int:pk>/', product_view, name='product_detail'),\n    path('', product_list_view, name='main_page'),\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "product_review.wsgi",
+        "description": "product_review.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "product_review.wsgi",
+        "documentation": {
+            "value": "\n```python\nfrom product_review.wsgi import application\n```\n\n```python\n\n\n```\n\n```python\napplication = get_wsgi_application()\n```\n",
+            "supportThemeIcons": false
+        }
+    }
+]
