@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="header"></div>
+       <h2>Вход</h2>
+       <br>
+       <form method ="post">
+       {% csrf_token %}
+        <br>
+        <p>Имя пользователя:<br>
+        {{formin.login}}
+        <p>Пароль:<br>
+        {{formin.password}}
+        <br>
+        <br>
+        <button style = 'background-color:#555555; color: white; border-radius: 8px;' type = "submit"> Войти </button>
+        <form>
+    </div> 
+
+{% endblock %}
