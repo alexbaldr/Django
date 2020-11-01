@@ -1,0 +1,108 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% load stars %}
+
+{% block title %}{{product.name}}{% endblock %}
+{% block content %}
+
+<main role="main">
+
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>{{product.name}}</h2> 
+        <img src="{{product.image.url}}" width="160">   
+        <p>{{product.price}} руб.</p>  
+
+        <form method="post" action="{% url 'basket:add_cart' product.id %}">
+        {{cart_product_form}}
+        {% csrf_token %}
+          <input type="submit" class="btn btn-secondary" value="Добавить в корзину »">
+        </form>
+        {{ product.description|linebreaks }}
+
+      </div>
+    </div>
+    <hr>
+
+    {% if product_review %}
+    {% for review in product_review %}
+    {{review.score|stars_filter}}<span>{{review.name}}</span>
+    
+    <p>{{review.text}}</p>
+    {% endfor %}
+    {% else %}
+    <h5> Тут ещё нет отзовов </h5>
+    {% endif %}
+
+
+    <hr>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-8 col-sm-12">
+        
+        {% if request.user.is_authenticated %}
+        <h4>Оставьте отзыв:</h4>
+        <form action="{{ request.META.HTTP_REFERER }}" method="post">
+          <label for="name"><h5>{{ user.username }}</h5></label>
+          <br>
+          
+          <div class="form-group">
+            <label for="content">Содержание</label>
+            {{ revform.text }}
+          </div>          
+          <br>
+          {{ revform.score }}
+            <br>
+<div class="form-group">
+
+{% comment %}           <div class="form-check">
+            <input class="form-check-input" type="radio" name="score" id="mark1" value="1">
+            <label class="form-check-label" for="mark1">
+              1
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="score" id="mark2" value="2">
+            <label class="form-check-label" for="mark2">
+              2
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="score" id="mark3" value="3">
+            <label class="form-check-label" for="mark3">
+              3
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="score" id="mark4" value="4">
+            <label class="form-check-label" for="mark4">
+              4
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="score" id="mark5" value="5">
+            <label class="form-check-label" for="mark5">
+              5
+              </label> 
+{% endcomment %}
+          </div>
+          {% csrf_token %}
+          <input type="submit" class="btn btn-primary"></input>
+        </form>
+      </div>
+      {% else %}
+      <h4> Незарегистрированные пользователи не могут оставить свой отзыв  </h4>
+      {% endif %} 
+    </div>
+
+  </div> <!-- /container -->
+
+
+</main>
+{% endblock %}

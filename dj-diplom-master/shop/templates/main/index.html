@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Главная{% endblock %}
+{% block content %}
+<main role="main">
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Добро пожаловать на сайт просто магазина</h1>
+      <p>Лучшие мобилы только у нас:</p>
+    </div>
+  </div>
+
+
+  <div class="container -fluid">
+    <div class="row">
+    {% for product in product_mobile %}
+      <div class="col-md-4">
+      <br>
+      <h2>{{ product.name }}</h2>
+      <br>
+        <a href={{product.get_absolute_url}}>
+          <img src="{{ product.image.url }}" width="180">
+          </a>
+      <br>
+      <p style="margin-left: 2.9em">{{product.price}} руб <p>
+
+        <form method="post" action="{%url 'basket:add_cart' product.id %}">
+        {{cart_product_form}}
+        {% csrf_token %}
+        <br>
+          <input type="submit" class="btn btn-secondary" value="Добавить в корзину »">
+        </form>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-4">Не знаете что одеть летом?</h1>
+      <p>Вот что мы можем предложить:</p>
+    </div>
+  </div>
+
+
+  <div class="container mb-5">
+
+    <div class="row">
+
+      <div class="col-md-4">
+     {% for product in product_dif %}
+      <br>
+      <h2>{{ product.name }}</h2>
+      <br>
+        <a href={{product.get_absolute_url}}>
+          <img src="{{ product.image.url }}" class="preview" width="180">
+          </a>
+      <br>
+      <p>{{product.price}} руб <p>
+      <br>
+        <form method="post" action="{%url 'basket:add_cart' product.id %}">
+        {{cart_product_form}}
+        {% csrf_token %}
+        <br>
+          <input type="submit" class="btn btn-secondary" value="Добавить в корзину »">
+        </form>
+        </div>
+      {% endfor %}
+      </div>
+
+    </div>
+  </div> 
+
+</main>
+{% endblock %}
