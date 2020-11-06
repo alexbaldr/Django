@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Угадай число{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="header">
+            <h1>Игра "Угадай число"</h1>
+        </div>
+    <div class="content">
+    
+     <br>
+        <form action="" method="POST">
+        {% csrf_token %}
+        <br>
+        <p> {{ guessform }}</p>
+        <br>
+        <br>
+        {% csrf_token %}
+        <input type="submit" value="Угадать число"/></input>
+        {% csrf_token %}
+        </form> 
+        {% if  player_number < thinked_number %}
+            <h5>Ваше число меньше.</h5>
+        {% elif player_number > thinked_number %}
+            <h5> Ваше число больше.</h5>
+        {% elif player_number == thinked_number %}   
+            <h5> Вы угадали число 
+            с {{ attempt }} попытки.
+            <br>
+            Загадывайте число</h5>
+
+            <button class="navbar-toggler" type="button" >
+            <a type="submit" href="{% url 'home' %} "> > Приступить </a>
+            </button>             
+
+        {% else %}
+            {{attempt}}
+        {% endif %}
+
+                    
+    </div>        
+    </div>
+
+{% endblock %}
