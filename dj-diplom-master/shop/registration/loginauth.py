@@ -3,12 +3,13 @@ from django.contrib.auth.backends import ModelBackend
 
 
 class EmailAuthBackend(ModelBackend):
-    def authenticate(self,request, username=None, password=None):
+
+    def authenticate(self, request, username=None, password=None):
 
         if '@' in username:
-            kwargs = {'email': username}  
+            kwargs = {'email': username}
         else:
-            kwargs = {'username': username}  
+            kwargs = {'username': username}
         try:
             user = User.objects.get(**kwargs)
             if user.check_password(password):
@@ -17,7 +18,6 @@ class EmailAuthBackend(ModelBackend):
                 return ValueError("fuck> ")
         except User.DoesNotExist:
             return None
-
 
     def get_user(self, user_id):
         try:

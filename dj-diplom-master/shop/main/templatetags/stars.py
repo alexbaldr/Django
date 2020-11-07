@@ -2,6 +2,7 @@ from django. template import library
 
 register = library.Library()
 
+
 @register.filter
 def stars_filter(value):
     if(value) == 5:
