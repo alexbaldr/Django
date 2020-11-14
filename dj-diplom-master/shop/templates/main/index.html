@@ -8,7 +8,11 @@
   <div class="jumbotron">
     <div class="container">
       <h1 class="display-3">Добро пожаловать на сайт просто магазина</h1>
-      <p>Лучшие мобилы только у нас:</p>
+      <p>Последние статьи:</p>
+      {% for article in articles %}
+      <a href={{article.get_absolute_url}}> {{article.name}}</a>
+      <p>{% endfor %}</p>
+     <p>Лучшие мобилы только у нас:</p> 
     </div>
   </div>
 

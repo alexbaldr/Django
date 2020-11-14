@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Спасибо за заказ!{% endblock %}
+{% block content %}
+
+<div class="container mt-3">
+
+    <h1 class="h3 mb-3 font-weight-normal">Ваш заказ был успешно создан. Номер заказа: {{order.id}}</h1>
+
+</div>
+{% endblock %}

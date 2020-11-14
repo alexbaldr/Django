@@ -1,6 +1,6 @@
-from main.forms import ReviewForm
+from main.forms import ArticleForm, Article
 from django.contrib import admin
-from main.models import Category, Product, Review
+from main.models import Article, Category, Product, Review
 
 
 @admin.register(Category)
@@ -20,6 +20,11 @@ class ProductAdmin(admin.ModelAdmin):
 
 @admin.register(Review)
 class ReviewAdmin(admin.ModelAdmin):
-    form = ReviewForm
     list_display = ['name', 'score', 'text']
     list_filter = ['score', ]
+
+
+@admin.register(Article)
+class ArticlsAdmin(admin.ModelAdmin):
+    form = ArticleForm
+    list_display = ['name', 'text', 'product', ]

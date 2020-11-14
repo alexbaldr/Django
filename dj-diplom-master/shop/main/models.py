@@ -3,7 +3,19 @@ from django.urls import reverse
 from django.contrib.auth.models import User
 
 
-# Create your models here.
+class Article(models.Model):
+    name = models.CharField(max_length=50)
+    text = models.TextField()
+    product = models.ForeignKey("Product", on_delete=models.DO_NOTHING)
+    created = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.name
+
+    def get_absolute_url(self):
+        return reverse("main:article_detail", args=[self.id])
+
+
 class Category(models.Model):
     name = models.CharField(max_length=50, db_index=True)
     slug = models.SlugField(unique=True)
@@ -17,7 +29,7 @@ class Category(models.Model):
         return self.name
 
     def get_absolute_url(self):
-        return reverse("main:product_list_by_category", args=[self.slug])
+        return reverse("main:product_list_by_category", args=[self.id])
 
 
 class Product(models.Model):

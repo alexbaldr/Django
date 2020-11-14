@@ -3,7 +3,7 @@ from main.forms import ReviewForm
 from basket.forms import CartAddForm
 from django.shortcuts import get_object_or_404, redirect, render
 from django.urls import reverse
-from main.models import Category, Product, Review
+from main.models import Article, Category, Product, Review
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 
 
@@ -16,10 +16,12 @@ def index(request):
     template = "main/index.html"
     categories = Category.objects.all()
     product = Product.objects.all()
+    articles = Article.objects.all().order_by('-created')[:3]
     context = {'cart_product_form': get_cart_form(),
                'categories': categories,
                "product_mobile": product.filter(category_id=1, available=True).order_by('-created')[:3],
-               "product_dif": product.filter(category_id=2, available=True).order_by('-created')[:3], }
+               "product_dif": product.filter(category_id=2, available=True).order_by('-created')[:3],
+               'articles': articles, }
     return render(request, template, context)
 
 
@@ -83,5 +85,15 @@ def phone_view(request, id, slug):
 
 def extra_view(request):
     template = 'main/empty_section.html'
-    context = {}
+    articles = Article.objects.all()
+    context = {'articles': articles}
+    return render(request, template, context)
+
+
+def article_view(request, id):
+    template = 'main/article.html'
+    article = Article.objects.get(id=id)
+    product = Product.objects.all()
+    context = {'article': article,
+               'product':product}
     return render(request, template, context)

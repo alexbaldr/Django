@@ -8,16 +8,18 @@
 
   <div class="container">
     <!-- Example row of columns -->
-
-    {% for article in articles %}
-    <a href={{article.get_absolute_url}}><div class="alert alert-dark" role="alert">
+    {% comment %} <a href = {% url "main:article"%}<div class="alert alert-dark" role="alert"> {% endcomment %}
       <h5><p>{{article.name|safe}}</p></h5>
       <p>{{article.text|safe}}
-    
     </a>
-    {% endfor %}
+
     </div>
+
+    <h7> Возможно вас заинтересует:</h7>
+    <br>
+        <a href={{ product.get_absolute_url }}> {{article.product.name}}</a>
   </div> <!-- /container -->
+
 
 </main>
 
